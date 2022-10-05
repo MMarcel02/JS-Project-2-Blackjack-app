@@ -10,12 +10,21 @@
 <body>
     <h1>Blackjack</h1>
     <p id="message-el">Want to play a round?</p>
-    <p id="cards-el">Cards: </p>
-    <p id="sum-el">Sum: </p>
+    <div id="dealer">
+        <p id="dealer-el"></p>
+        <p id="dealer-sum-el"></p>
+    </div>
+
+    <div id="player">
+        <p id="cards-el"></p>
+        <p id="sum-el"></p>
+    </div>
 
     <button id="start-game" onclick="startGame()">Start Game</button>
     <button id="new-card" onclick="newCard()">New Card</button>
-
+    <button id="stand" onclick="stand()">Stand</button>
+    <p id="greeting-el"></p>
+    <p id="player-el"></p>
 
     <script src="index.js"></script>
 </body>
