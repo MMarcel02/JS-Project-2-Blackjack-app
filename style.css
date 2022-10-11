@@ -22,14 +22,14 @@ h1{
 #dealer{
     width: 300px;
     position: relative;
-    left: 33.6%;
+    left: 20%;
 }
 
 #player{
     width: 300px;
     position: absolute;
-    top: 37.7%;
-    left: 50.2%;
+    top: 34%;
+    right: 20%;
 }
 
 button{
